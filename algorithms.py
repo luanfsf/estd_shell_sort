@@ -1,7 +1,7 @@
 from math import floor
 
 def default_gap(h):
-	return int(h//2)
+	return h//2
 
 def knuth_gap(h):
 	return int((3**h)/2)
